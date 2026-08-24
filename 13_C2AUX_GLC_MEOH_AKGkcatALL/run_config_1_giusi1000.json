@@ -1,0 +1,108 @@
+{
+    "manually_changed_kms": {},
+    "manually_changed_kcats": {
+        "NADTRHD_fw": 70605.66952036729,
+        "ME1_fw": 11812.250119759632,
+        "MDHx": 7200.0,
+        "GALS": 56880.0,
+        "ACPSx": 5760.0
+    },
+    "manually_changed_dG0s": {},
+    "results_folder": "/13_C2AUX_GLC_MEOH_AKGkcatALL/",
+    "ectfva_active_reacs": [
+        "Biomass_fw"
+    ],
+    "round_num": 1,
+    "objective_target": {
+        "Biomass_fw": 1.0
+    },
+    "objective_sense": 1,
+    "set_bounds": {},
+    "working_results": [],
+    "changed_flux_bounds": {
+        "EX_akg_e_bw": [
+            0.0,
+            1000.0
+        ],
+        "EX_meoh_e": [
+            0.0,
+            1000.0
+        ],
+        "EX_glc__D_e_bw": [
+            0.0,
+            1000.0
+        ]
+    },
+    "sampling_rounds_per_metaround": 2,
+    "sampling_wished_num_feasible_starts": 5,
+    "sampling_max_metarounds": 3,
+    "evolution_num_gens": 500,
+    "pop_size": 128,
+    "protein_pool": 0.224,
+    "log_min_max_conc_overwrites": {
+        "glc__D_e": [
+            -3.506557897319982,
+            -3.506557897319982
+        ],
+        "meoh_e": [
+            -0.6931471805599453,
+            -0.6931471805599453
+        ],
+        "meoh_p": [
+            -13.815510557964274,
+            -0.6931471805599453
+        ],
+        "meoh_c": [
+            -13.815510557964274,
+            -0.6931471805599453
+        ],
+        "akg_e": [
+            -5.521460917862246,
+            -5.521460917862246
+        ]
+    },
+    "max_conc_sum": 0.4,
+    "nameaddition": "giusi1000",
+    "kicked_reacs": [
+        "PFL_fw",
+        "PDH_fw",
+        "CS_fw",
+        "EX_fru_e_bw",
+        "EX_xyl__D_e_bw",
+        "EX_for_e_bw",
+        "EX_acald_e_bw",
+        "EX_lac__D_e_bw",
+        "EX_glyc__R_e_bw",
+        "EX_mal__L_e_bw",
+        "EX_etoh_e_bw",
+        "EX_glcn_e_bw",
+        "EX_gln__L_e_bw",
+        "EX_glyc_e_bw",
+        "EX_ac_e_bw",
+        "EX_pyr_e_bw",
+        "EX_succ_e_bw",
+        "EX_rib__D_e_bw",
+        "EX_fum_e_bw",
+        "EX_glu__L_e_bw",
+        "EX_fru_e_bw"
+    ],
+    "do_parameter_variation": false,
+    "varied_reacs": [],
+    "max_km_variation": null,
+    "max_kcat_variation": null,
+    "max_ki_variation": null,
+    "max_ka_variation": null,
+    "max_dG0_variation": null,
+    "with_kappa": true,
+    "with_gamma": true,
+    "with_iota": false,
+    "with_alpha": false,
+    "change_known_values": true,
+    "change_unknown_values": true,
+    "use_shuffling_instead_of_uniform_random": false,
+    "use_shuffling_with_putting_back": false,
+    "free_upper_unfixed_concentrations": false,
+    "json_path_model_to_merge": "",
+    "shuffle_using_distribution_of_values_with_reference": true,
+    "modelpath": "iCH360_cobrak_giusi.json"
+}

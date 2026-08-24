@@ -1,0 +1,20 @@
+[project]
+name = "guisik"
+version = "0.0.1"
+authors = [
+  { name="Pavlos Stephanos Bekiaris" },
+  { name="Giusi Favoino" },
+]
+description = "GIUSI-k"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "cobrak==0.0.11",
+    "gurobipy",
+    "ruff",  # Ruff is optional and not neccessary for COBRA-k, but provides nice linting capabilities
+]

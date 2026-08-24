@@ -1,0 +1,1 @@
+{"fluxes": {"PFL": [0.0, 0.0], "OBTFL": [0.0, 0.0], "POX": [0.0, 0.0], "PDH": [0.0, 0.0], "CS": [0.0, 0.0], "MCITS": [0.0, 0.0]}, "pinned_reactions": [], "description": "", "objective_direction": "max", "objective_coefficients": {}, "use_scenario_objective": false, "reactions": {}, "constraints": [], "annotations": [], "version": 4}
